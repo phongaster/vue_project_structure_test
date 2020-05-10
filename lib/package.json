@@ -1,0 +1,21 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phonginx",
+  "license": "MIT",
+  "dependencies": {
+    "lib_core": "file:../lib_core",
+    "lib_ui": "file:../lib_ui"
+  },
+  "devDependencies": {
+    "vue": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  }
+}

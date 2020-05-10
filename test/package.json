@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "phonginx",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@vue/cli": "^4.3.1",
+    "@vue/test-utils": "^1.0.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "vue-jest": "^3.0.5",
+    "lib": "file:../lib"
+  }
+}
