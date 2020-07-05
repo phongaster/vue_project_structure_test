@@ -2,14 +2,22 @@
   "name": "app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-in-lib": "node ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js build",
+    "serve-in-lib": "node ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js serve ",
+    "debug": "node --inspect-brk ./node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
+    "debug-in-lib": "node --inspect-brk ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js serve"
   },
   "author": "phonginx",
   "license": "MIT",
   "dependencies": {
-    "lib": "file:../lib",
-    "vue": "^2.6.11"
+    "lib": "file:../lib"
+  },
+  "devDependencies": {
+    "vue": "file:../lib/node_modules/vue"
   }
 }
