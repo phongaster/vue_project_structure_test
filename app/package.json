@@ -10,14 +10,13 @@
     "build-in-lib": "node ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js build",
     "serve-in-lib": "node ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js serve ",
     "debug": "node --inspect-brk ./node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
-    "debug-in-lib": "node --inspect-brk ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js serve"
+    "debug-in-lib": "node --inspect-brk ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
+    "inspect": "node ./node_modules/lib/node_modules/@vue/cli-service/bin/vue-cli-service.js inspect"
   },
   "author": "phonginx",
   "license": "MIT",
   "dependencies": {
     "lib": "file:../lib"
   },
-  "devDependencies": {
-    "vue": "file:../lib/node_modules/vue"
-  }
+  "devDependencies": {}
 }
